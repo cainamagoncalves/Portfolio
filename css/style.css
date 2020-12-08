@@ -17,6 +17,7 @@ header {
     justify-content: space-between;
     padding: 40px 100px;
     z-index: 10000;
+    
     transition: 0.6s;
 }
 

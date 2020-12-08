@@ -147,6 +147,13 @@ header #toggle::after {
     text-align: center;
 }
 
+.container h4 {
+    font-weight: 800;
+    font-size: 1.3em;
+}
+
+
+
 .container p {
     padding: 10px 0px;
     text-align: center;
