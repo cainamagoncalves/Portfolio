@@ -61,7 +61,7 @@ header #toggle::after {
     width: 100%;
     min-height: 100vh;
     padding: 100px;
-    background: black;
+    background: black 50%;
     background-size: cover;
     display: flex;
     align-items: center;

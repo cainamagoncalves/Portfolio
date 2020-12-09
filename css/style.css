@@ -32,6 +32,11 @@ header .logo{
     transition: 0.6s;
 }
 
+header .logo img {
+    border-radius: 50%;
+    width: 80px;
+}
+
 header #toggle {
     position: relative;
     width: 30px;
