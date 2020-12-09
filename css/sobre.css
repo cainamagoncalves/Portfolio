@@ -179,7 +179,7 @@ header #toggle::after {
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 360px) {
     header {
         padding: 40px 50px;
     }
@@ -194,13 +194,19 @@ header #toggle::after {
         font-size: 1em;
     }
     .banner.active {
-        transform: translateX(-250);
+        transform: translateX(-250px);
+    }
+    .content .links {
+        width: 200px;
+    }
+    .content p {
+        width: 200px;
     }
     #navigation {
         width: 250px;
     }
     #navigation ul li {
-        font-size: 1.5em;
+        font-size: 1.0em;
         margin: 5px 0;  
     }
 }
