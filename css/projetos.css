@@ -175,23 +175,18 @@ header #toggle::after {
         font-size: 1em;
     }
     .banner.active {
-        transform: translateX(-250);
+        transform: translateX(-250px);
+    }
+    .content {
+        flex-direction: column;
+        margin-right: 20px;
     }
     #navigation {
         width: 250px;
     }
     #navigation ul li {
-        font-size: 1.5em;
+        font-size: 1.0em;
         margin: 5px 0;  
     }
-    .sci {
-        position: absolute;
-        bottom: 50px;
-        right: initial;
-        flex-direction: row;
-    }
-    .sci li a {
-        margin: initial;
-        margin-right: 10px;
-    }
+
 }

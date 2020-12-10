@@ -211,6 +211,9 @@ header #toggle::after {
     header {
         padding: 40px 50px;
     }
+    header .logo img {
+        width: 50px;
+    }
     .banner {
         padding: 100px 50px 150px;
     }
@@ -222,13 +225,13 @@ header #toggle::after {
         font-size: 1em;
     }
     .banner.active {
-        transform: translateX(-250);
+        transform: translateX(-250px);
     }
     #navigation {
         width: 250px;
     }
     #navigation ul li {
-        font-size: 1.5em;
+        font-size: 1.0em;
         margin: 5px 0;  
     }
     .sci {

@@ -179,7 +179,7 @@ header #toggle::after {
 
 
 
-@media (max-width: 360px) {
+@media (max-width: 600px) {
     header {
         padding: 40px 50px;
     }
