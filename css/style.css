@@ -21,18 +21,8 @@ header {
     transition: 0.6s;
 }
 
-header .logo{
-    position: relative;
-    font-weight: 700;
-    color: #fff;
-    text-decoration: none;
-    font-size: 2em;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    transition: 0.6s;
-}
 
-header .logo img {
+header img {
     border-radius: 50%;
     width: 80px;
 }
@@ -211,7 +201,7 @@ header #toggle::after {
     header {
         padding: 40px 50px;
     }
-    header .logo img {
+    header img {
         width: 50px;
     }
     .banner {
