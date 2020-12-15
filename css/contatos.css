@@ -163,7 +163,7 @@ header #toggle::after {
         font-size: 1em;
     }
     .banner.active {
-        transform: translateX(-250);
+        transform: translateX(-250px);
     }
     #navigation {
         width: 250px;
