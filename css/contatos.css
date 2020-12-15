@@ -172,14 +172,4 @@ header #toggle::after {
         font-size: 1.5em;
         margin: 5px 0;  
     }
-    .sci {
-        position: absolute;
-        bottom: 50px;
-        right: initial;
-        flex-direction: row;
-    }
-    .sci li a {
-        margin: initial;
-        margin-right: 10px;
-    }
 }
