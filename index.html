@@ -34,7 +34,7 @@
 
     </section>
     <div id="navigation">
-        <ul>
+        <ul class="navs">
             <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
             <li><a href="sobre.html"><i class="far fa-address-card"></i> Sobre</a></li>
             <li><a href="projetos.html"><i class="fas fa-file-code"></i> Projetos</a></li>
@@ -43,6 +43,12 @@
     </div>
     <script src="./javascript/index.js"></script>
     <script src="https://kit.fontawesome.com/bc8ef1fff2.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $("#toggle").click(function () {
+            $(".navs").slideToggle(500);
+        });
+    </script>
 </body>
 
 </html>

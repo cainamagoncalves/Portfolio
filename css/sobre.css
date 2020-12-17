@@ -106,6 +106,7 @@ header #toggle::after {
     position: relative;
     display: flex;
     flex-direction: column;
+    display: none;
 }
 
 #navigation ul li {
