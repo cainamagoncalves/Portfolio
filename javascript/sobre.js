@@ -7,18 +7,14 @@ function toggle() {
 
 function openMore(id) {
     Array.from(document.querySelectorAll(`[id^='more']`))
-        .map(e => {
-            if (e.id === id) e.style.display = 'block';
-            else e.style.display = 'none';
-        })
-   
+        .map(e => e.style.display = e.id === id ? 'block' : 'none')
 }
 // function openMoreAntiga () {
 //     const open = document.getElementById('more1')
 //     const close = document.getElementById('more')
 //     const close1 = document.getElementById('more2')
 //     const close2 = document.getElementById('more3')
-    
+
 //     if (open.style.display === 'block') {
 //         open.style.display = 'none'
 //     } else {
